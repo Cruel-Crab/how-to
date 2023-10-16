@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background: #f1f1f1;
+}
+
+.progressContainer {
+    height: 8px;
+    background: #ccc;
+    width: 100%;
+}
+
+.progressBar {
+    height: 8px;
+    background: #4caf50;
+    width: 0%;
+}
+
+.content {
+    padding: 100px 0;
+    margin: 50px auto 0 auto;
+    width: 80%;
+}
+
+.content>div:not(:first-child) {
+    margin: 12px 0;
+}
